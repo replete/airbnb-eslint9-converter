@@ -22,8 +22,8 @@ export default [
   {
     files: ['**/*.js'],
     rules: {
-    ...airbnbRules,
-	'no-console': 'off',
+      ...airbnbRules,
+      'no-console': 'off',
     }
   }
 ]
