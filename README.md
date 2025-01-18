@@ -15,6 +15,8 @@ I'm not supporting this, airbnb isn't supporting this, and I'm not going to upda
 ```js
 // eslint.config.js
 import airbnbRules from './eslint-airbnb-base-rules.json' with { type: 'json' };
+// FUTURE: when airbnb release eslint v9 compatible version of eslint-config-airbnb-base
+// import airbnbRules from 'eslint-config-airbnb-base/rules';
 
 export default [
   {
